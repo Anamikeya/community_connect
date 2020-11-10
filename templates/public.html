@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            public views
+        </title>
+
+    </head>
+    <body>
+    {%for con in cont %}
+    
+    <h1>{{con.name}}</h1>
+    <h3>{{con.about}}</h3>
+    <p>{{con.body}}</p>
+
+    {% endfor %}
+    </body>
+</html>
